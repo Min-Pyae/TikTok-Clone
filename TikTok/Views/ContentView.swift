@@ -26,7 +26,7 @@ struct ContentView: View {
                 }
                 .tag(0)
             
-            Text("Home")
+            FriendsView()
                 .tabItem {
                     VStack {
                         Image(systemName: selectedTab == 1 ? "person.2.fill" : "person.2")
@@ -47,7 +47,7 @@ struct ContentView: View {
                 }
                 
             
-            Text("Home")
+            InboxView()
                 .tabItem {
                     VStack {
                         Image(systemName: selectedTab == 2 ? "heart.fill" : "heart")

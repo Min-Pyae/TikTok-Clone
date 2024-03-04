@@ -13,6 +13,10 @@
 		F15BC9402B95FF0500F0DCCD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F15BC93F2B95FF0500F0DCCD /* Preview Assets.xcassets */; };
 		F15BC9492B96040500F0DCCD /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15BC9482B96040500F0DCCD /* FeedView.swift */; };
 		F15BC94C2B96062D00F0DCCD /* FeedCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15BC94B2B96062D00F0DCCD /* FeedCellView.swift */; };
+		F15BC9512B9609D000F0DCCD /* FriendsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15BC9502B9609D000F0DCCD /* FriendsView.swift */; };
+		F15BC9532B9609DB00F0DCCD /* FriendRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15BC9522B9609DB00F0DCCD /* FriendRowView.swift */; };
+		F15BC9562B960B9E00F0DCCD /* InboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15BC9552B960B9E00F0DCCD /* InboxView.swift */; };
+		F15BC9582B960C7100F0DCCD /* InboxRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15BC9572B960C7100F0DCCD /* InboxRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +27,10 @@
 		F15BC93F2B95FF0500F0DCCD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F15BC9482B96040500F0DCCD /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
 		F15BC94B2B96062D00F0DCCD /* FeedCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCellView.swift; sourceTree = "<group>"; };
+		F15BC9502B9609D000F0DCCD /* FriendsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsView.swift; sourceTree = "<group>"; };
+		F15BC9522B9609DB00F0DCCD /* FriendRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendRowView.swift; sourceTree = "<group>"; };
+		F15BC9552B960B9E00F0DCCD /* InboxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboxView.swift; sourceTree = "<group>"; };
+		F15BC9572B960C7100F0DCCD /* InboxRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboxRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +83,8 @@
 		F15BC9462B95FFAA00F0DCCD /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				F15BC9542B960B9000F0DCCD /* Inbox */,
+				F15BC94F2B9609C100F0DCCD /* Friends */,
 				F15BC94A2B96061800F0DCCD /* Feed */,
 				F15BC93A2B95FF0400F0DCCD /* ContentView.swift */,
 			);
@@ -95,6 +105,24 @@
 				F15BC94B2B96062D00F0DCCD /* FeedCellView.swift */,
 			);
 			path = Feed;
+			sourceTree = "<group>";
+		};
+		F15BC94F2B9609C100F0DCCD /* Friends */ = {
+			isa = PBXGroup;
+			children = (
+				F15BC9502B9609D000F0DCCD /* FriendsView.swift */,
+				F15BC9522B9609DB00F0DCCD /* FriendRowView.swift */,
+			);
+			path = Friends;
+			sourceTree = "<group>";
+		};
+		F15BC9542B960B9000F0DCCD /* Inbox */ = {
+			isa = PBXGroup;
+			children = (
+				F15BC9552B960B9E00F0DCCD /* InboxView.swift */,
+				F15BC9572B960C7100F0DCCD /* InboxRowView.swift */,
+			);
+			path = Inbox;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,7 +195,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F15BC9582B960C7100F0DCCD /* InboxRowView.swift in Sources */,
+				F15BC9512B9609D000F0DCCD /* FriendsView.swift in Sources */,
+				F15BC9532B9609DB00F0DCCD /* FriendRowView.swift in Sources */,
 				F15BC94C2B96062D00F0DCCD /* FeedCellView.swift in Sources */,
+				F15BC9562B960B9E00F0DCCD /* InboxView.swift in Sources */,
 				F15BC93B2B95FF0400F0DCCD /* ContentView.swift in Sources */,
 				F15BC9492B96040500F0DCCD /* FeedView.swift in Sources */,
 				F15BC9392B95FF0400F0DCCD /* TikTokApp.swift in Sources */,
