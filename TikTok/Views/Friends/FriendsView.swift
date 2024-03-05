@@ -16,10 +16,10 @@ struct FriendsView: View {
                         FriendRowView()
                     }
                 }
+                .padding(.top)
             }
             .navigationTitle("Explore")
             .navigationBarTitleDisplayMode(.inline)
-            .padding(.top)
         }
     }
 }

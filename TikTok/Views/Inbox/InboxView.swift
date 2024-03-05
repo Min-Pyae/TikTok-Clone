@@ -16,10 +16,10 @@ struct InboxView: View {
                         InboxRowView()
                     }
                 }
+                .padding(.top)
             }
             .navigationTitle("Notifications")
             .navigationBarTitleDisplayMode(.inline)
-            .padding(.top)
         }
     }
 }

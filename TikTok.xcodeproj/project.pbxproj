@@ -17,6 +17,10 @@
 		F15BC9532B9609DB00F0DCCD /* FriendRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15BC9522B9609DB00F0DCCD /* FriendRowView.swift */; };
 		F15BC9562B960B9E00F0DCCD /* InboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15BC9552B960B9E00F0DCCD /* InboxView.swift */; };
 		F15BC9582B960C7100F0DCCD /* InboxRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15BC9572B960C7100F0DCCD /* InboxRowView.swift */; };
+		F15BC95B2B96448600F0DCCD /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15BC95A2B96448600F0DCCD /* ProfileView.swift */; };
+		F15BC95D2B96450700F0DCCD /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15BC95C2B96450700F0DCCD /* ProfileHeaderView.swift */; };
+		F15BC95F2B96451300F0DCCD /* PostGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15BC95E2B96451300F0DCCD /* PostGridView.swift */; };
+		F15BC9612B96467500F0DCCD /* UserStatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15BC9602B96467500F0DCCD /* UserStatView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +35,10 @@
 		F15BC9522B9609DB00F0DCCD /* FriendRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendRowView.swift; sourceTree = "<group>"; };
 		F15BC9552B960B9E00F0DCCD /* InboxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboxView.swift; sourceTree = "<group>"; };
 		F15BC9572B960C7100F0DCCD /* InboxRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboxRowView.swift; sourceTree = "<group>"; };
+		F15BC95A2B96448600F0DCCD /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		F15BC95C2B96450700F0DCCD /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
+		F15BC95E2B96451300F0DCCD /* PostGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostGridView.swift; sourceTree = "<group>"; };
+		F15BC9602B96467500F0DCCD /* UserStatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStatView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +91,7 @@
 		F15BC9462B95FFAA00F0DCCD /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				F15BC9592B96447700F0DCCD /* Profile */,
 				F15BC9542B960B9000F0DCCD /* Inbox */,
 				F15BC94F2B9609C100F0DCCD /* Friends */,
 				F15BC94A2B96061800F0DCCD /* Feed */,
@@ -123,6 +132,17 @@
 				F15BC9572B960C7100F0DCCD /* InboxRowView.swift */,
 			);
 			path = Inbox;
+			sourceTree = "<group>";
+		};
+		F15BC9592B96447700F0DCCD /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				F15BC95A2B96448600F0DCCD /* ProfileView.swift */,
+				F15BC95C2B96450700F0DCCD /* ProfileHeaderView.swift */,
+				F15BC95E2B96451300F0DCCD /* PostGridView.swift */,
+				F15BC9602B96467500F0DCCD /* UserStatView.swift */,
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,13 +216,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				F15BC9582B960C7100F0DCCD /* InboxRowView.swift in Sources */,
+				F15BC95B2B96448600F0DCCD /* ProfileView.swift in Sources */,
+				F15BC95F2B96451300F0DCCD /* PostGridView.swift in Sources */,
 				F15BC9512B9609D000F0DCCD /* FriendsView.swift in Sources */,
 				F15BC9532B9609DB00F0DCCD /* FriendRowView.swift in Sources */,
 				F15BC94C2B96062D00F0DCCD /* FeedCellView.swift in Sources */,
 				F15BC9562B960B9E00F0DCCD /* InboxView.swift in Sources */,
 				F15BC93B2B95FF0400F0DCCD /* ContentView.swift in Sources */,
+				F15BC95D2B96450700F0DCCD /* ProfileHeaderView.swift in Sources */,
 				F15BC9492B96040500F0DCCD /* FeedView.swift in Sources */,
 				F15BC9392B95FF0400F0DCCD /* TikTokApp.swift in Sources */,
+				F15BC9612B96467500F0DCCD /* UserStatView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

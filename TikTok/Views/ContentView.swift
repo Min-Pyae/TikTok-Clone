@@ -60,7 +60,7 @@ struct ContentView: View {
                 }
                 .tag(2)
             
-            Text("Profile")
+            ProfileView()
                 .tabItem {
                     VStack {
                         Image(systemName: selectedTab == 3 ? "person.fill" : "person")
